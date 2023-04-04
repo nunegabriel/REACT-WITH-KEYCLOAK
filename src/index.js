@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ReactKeycloakProvider } from '@react-keycloak/web';
-import keycloak from './keycloak';
+import { keycloak } from './keycloak';
 
 const App = () => {
   return <div>Hello World!</div>;

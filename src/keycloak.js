@@ -13,4 +13,6 @@ keycloak.init({ onLoad: 'login-required' }).then((auth) => {
       console.log('Authenticated');
     }
   });
+
+export { keycloak };
   
